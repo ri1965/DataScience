@@ -6,5 +6,5 @@ Aquí encontrarás varios recursos que te ayudarán a poder realizar las activid
 El sitio se encuentra en construcción e iremos actualizándolo a medida de que agreguemos contenido.
 
 
-<Ale Casas> (AKA AL34N1X)
+.- Ale Casas (AKA AL34N1X)
 
