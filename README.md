@@ -8,3 +8,4 @@ El sitio se encuentra en construcción e iremos actualizándolo a medida de que 
 
 .- Ale Casas (AKA AL34N1X)
 
+[](https://www.rewisor.com/wp-content/uploads/2018/03/rick-morty-rewisor.jpg')
