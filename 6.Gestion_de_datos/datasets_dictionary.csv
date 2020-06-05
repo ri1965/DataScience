@@ -1,3 +1,12 @@
+# Se han otorgado más de 35,000 medallas en los Juegos Olímpicos desde 1896. 
+# Las dos primeras Olimpiadas otorgaron medallas de plata y una corona de olivo al ganador, 
+# y el COI otorgó retrospectivamente oro, plata y bronce a los atletas en función de su clasificación. 
+# Este conjunto de datos incluye una fila para cada atleta olímpico que ha ganado una medalla desde los primeros juegos.
+# Actividates
+# 1. ¿Qué atletas olímpicos tienen más medallas de oro? 
+# 2. ¿De qué países son y cómo ha cambiado con el tiempo?
+# 3. Opcional - cree alguna visualización como resultado del análisis
+
 Country,Code,Population,GDP per Capita
 Afghanistan,AFG,32526562,594.323081219966
 Albania,ALB,2889167,3945.21758150914
