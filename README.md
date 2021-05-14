@@ -7,7 +7,7 @@ Aquí encontrarás varios recursos que te ayudarán a poder realizar las activid
 
 .- Ale Casas (AL34N!X)
 
-<img src="https://www.rewisor.com/wp-content/uploads/2018/03/rick-morty-rewisor.jpg" width=50% height=50%>
+![](https://www.rewisor.com/wp-content/uploads/2018/03/rick-morty-rewisor.jpg)
 
 
 ## Intro a Python
