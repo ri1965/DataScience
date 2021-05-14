@@ -31,11 +31,11 @@ En el siguiente apartado puedes encontrar las clases y ejercicios que cubren los
 8. Ejercicios
 
 Python no es difícil en lo absoluto, pero como todo en la vida, le debes dedicar tiempo. Te recomendamos que primero revises los notebooks de las clases y luego pases a hacer los ejercicios que puedes encontrar en cada apartado.
-Para poder trabjar, no necesitas más que una computadora y un navegador, ya que para la mayoría de los ejercicios utilizaremos ![Colab](colab.research.google.com).
+Para poder trabjar, no necesitas más que una computadora y un navegador, ya que para la mayoría de los ejercicios utilizaremos [Colab](colab.research.google.com).
 
 Sin más preámbulo, te invitamos a que comiences el viaje!
 
-![Intro Python](https://github.com/al34n1x/DataScience/tree/master/1.Intro)
+[Intro Python](https://github.com/al34n1x/DataScience/tree/master/1.Intro)
 
 
 
