@@ -1,0 +1,55 @@
+Scrapeando DATA USA
+
+Guía de la API: https://www.census.gov/foreign-trade/reference/guides/Guide%20to%20International%20Trade%20Datasets.pdf
+Solicitar una key para hacer más de 500 calls por día: http://api.census.gov/data/key_signup.html 
+
+1. Requerimientos del ejercicio:
+	a. Se quiere generar el archivo llamado "expo-usa-arg-{año}-{mes}.csv" que contenga el volumen de expos de USA a ARG
+	para las commodities del número 0 al 9 y el período que se solicita es:
+	Año: 2020 
+	Meses: de enero (incluido) hasta abril (incluido).
+	b. Se deben incluir en el archivo las siguientes columnas:
+		- Nombre de Pais destino
+		- Código de commodity a nivel armonizado hs10
+		- Nombre de commodity (descripción)
+		- Valor mensual
+		- Año
+		- Mes
+	c. Opcional: Realizar gráficos para poder visualizar la información de manera conveniente
+
+
+----
+
+Ahora veamos el caso de uso real: Lo que se necesitaba eran todos los datos por país (expo e impo) para todos los meses de los años 2013 a 2020.
+
+2. CASO DE USO REAL (Si, este fue el requerimiento recibido):
+
+•	Necesitamos iterar con los números del 0 al 9 para completar el mes marzo de 2020
+E_COMMODITY=3*
+E_COMMODITY=2*
+E_COMMODITY=1*
+etc
+
+•	Necesitamos iterar con los años y los 12 meses
+YEAR=2020&MONTH=02
+YEAR=2020&MONTH=01
+etc
+
+•	ojo en la salida hay grupos de productos
+
+•	países: https://www.census.gov/foreign-trade/schedules/c/country.txt
+
+•	Necesitamos guardarlos en csv o txt y luego en un bucket de S3
+
+
+Primer análisis realizado:
+
+CALL IMPORTACIONES según país a 10 dígitos del hs según items que empiecen por 3 para el año 2020 mes 3
+https://api.census.gov/data/timeseries/intltrade/imports/hs?get=CTY_CODE,CTY_NAME,I_COMMODITY,I_COMMODITY_SDESC,GEN_VAL_MO&YEAR=2020&MONTH=03&COMM_LVL=HS10&I_COMMODITY=3*
+
+PARA CHEQUEAR TOTAL MENSUAL 
+https://api.census.gov/data/timeseries/intltrade/imports/hs?get=GEN_VAL_MO&time=from+2013-01
+https://api.census.gov/data/timeseries/intltrade/exports/hs?get=ALL_VAL_MO&time=from+2013-01
+
+
+
