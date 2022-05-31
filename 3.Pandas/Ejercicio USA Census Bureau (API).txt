@@ -9,7 +9,7 @@ Comodines:
 
 1. Requerimientos del ejercicio:
 	a. Se quiere generar el archivo llamado "expo-usa-arg-{año}-{mes}.csv" que contenga el volumen de expos de USA a ARG
-	para las commodities del número 0 al 9 y el período que se solicita es:
+	para todas las commodities y el período que se solicita es:
 	Año: 2020 
 	Meses: de enero (incluido) hasta abril (incluido).
 	b. Se deben incluir en el archivo las siguientes columnas:
