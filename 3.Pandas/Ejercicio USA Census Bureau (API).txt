@@ -1,7 +1,11 @@
 Scrapeando DATA USA
 
 Guía de la API: https://www.census.gov/foreign-trade/reference/guides/Guide%20to%20International%20Trade%20Datasets.pdf
-Solicitar una key para hacer más de 500 calls por día: http://api.census.gov/data/key_signup.html 
+
+Comodines:
+1. Solicitar una key para hacer más de 500 calls por día: http://api.census.gov/data/key_signup.html 
+2. Guía de países extranjeros: https://www.census.gov/foreign-trade/schedules/c/country.txt
+3. Acá les dejo una key generada el 30 de mayo de 2022 por si necesitan: 150bc88465f0b44811aef129e58a5a3904624e1f
 
 1. Requerimientos del ejercicio:
 	a. Se quiere generar el archivo llamado "expo-usa-arg-{año}-{mes}.csv" que contenga el volumen de expos de USA a ARG
@@ -15,7 +19,7 @@ Solicitar una key para hacer más de 500 calls por día: http://api.census.gov/d
 		- Valor mensual
 		- Año
 		- Mes
-	c. Opcional: Realizar gráficos para poder visualizar la información de manera conveniente
+	c. Realizar gráficos para poder visualizar la información de manera conveniente
 
 
 ----
