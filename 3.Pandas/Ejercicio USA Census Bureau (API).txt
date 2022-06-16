@@ -1,0 +1,25 @@
+Scrapeando DATA USA
+
+Guía de la API: https://www.census.gov/foreign-trade/reference/guides/Guide%20to%20International%20Trade%20Datasets.pdf
+
+Comodines:
+1. Solicitar una key para hacer más de 500 calls por día: http://api.census.gov/data/key_signup.html 
+2. Guía de países extranjeros: https://www.census.gov/foreign-trade/schedules/c/country.txt
+3. Acá les dejo una key generada el 30 de mayo de 2022 por si necesitan: 150bc88465f0b44811aef129e58a5a3904624e1f
+
+1. Requerimientos del ejercicio:
+	a. Se quiere generar el archivo llamado "expo-usa-arg-{año}-{mes}.csv" que contenga el volumen de expos de USA a ARG
+	para todas las commodities y el período que se solicita es:
+	Año: 2020 
+	Meses: de enero (incluido) hasta abril (incluido).
+	b. Se deben incluir en el archivo las siguientes columnas:
+		- Nombre de Pais destino
+		- Código de commodity a nivel armonizado hs10
+		- Nombre de commodity (descripción)
+		- Valor mensual
+		- Año
+		- Mes
+	c. Realizar gráficos para poder visualizar la información de manera conveniente
+
+
+----
